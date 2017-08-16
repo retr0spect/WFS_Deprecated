@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView_Row_Extracted_Icon"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="1dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="File Name"
+        android:textSize="14sp"
+        android:id="@+id/textView_Row_Extracted_FileName"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView_Row_Extracted_Icon"
+        android:layout_toEndOf="@+id/imageView_Row_Extracted_Icon" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="File Size"
+        android:id="@+id/textView_Row_Extracted_fileSizeTV"
+        android:textSize="11sp"
+        android:layout_alignBottom="@+id/imageView_Row_Extracted_Icon"
+        android:layout_alignLeft="@+id/textView_Row_Extracted_FileName"
+        android:layout_alignStart="@+id/textView_Row_Extracted_FileName"
+        android:layout_marginBottom="1dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Last Modified"
+        android:id="@+id/textView_Row_Extracted_LastModified"
+        android:textSize="11sp"
+        android:layout_alignBottom="@+id/imageView_Row_Extracted_Icon"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="1dp" />
+
+</RelativeLayout>

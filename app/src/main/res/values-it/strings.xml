@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">WFS: WhatzApp File Sender</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_locale">Seleziona La Lingua</string>
+    <string name="current_path">Current Path</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="banner_ad_unit_id">ca-app-pub-7768394173357020/6685624994</string>
+    <string name="banner_ad_unit_id_test">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancellare</string>
+    <string name="canceled">Annullato</string>
+    <string name="yes">Sì</string>
+    <string name="yes_sure">Si Certo</string>
+    <string name="no">No</string>
+    <string name="or">&#8595;  O  &#8595;</string>
+
+    <string name="select_file">Seleziona File</string>
+
+    <string name="send_file_tab">Inviare</string>
+    <string name="received_tab">Ricevuto</string>
+    <string name="extracted_tab">Estratto</string>
+
+    <string name="invalid_file">File Non Valido! Riprova!</string>
+    <string name="no_file_explorer_file_chooser">Non hai file explorer installato!
+        Utilizzare il selettore di file sotto questo pulsante per selezionare il file.</string>
+    <string name="no_file_explorer_blue_button">Non hai file explorer installato!
+        Utilizzare il selettore di file sotto il pulsante blu!</string>
+
+    <string name="quiz_time">Si prega di provare la mia ultima app \'Quiz Time\'</string>
+    <string name="wclean">Si prega di provare la mia ultima app \'W-Clean: WhatsApp Cleaner\'</string>
+
+    <string name="adfree_title">Nessun annuncio versione</string>
+    <string name="adfree_message">Vuoi acquistare annuncio versione gratuita di WFS e sostenere un piccolo sviluppatore come me?</string>
+
+    <string name="rate_app_title">Per favore, vota la mia app!</string>
+    <string name="rate_app_message">Volete dare il mio app una valutazione di 5 stelle su playstore? Questo sarà davvero di grande aiuto. Grazie!</string>
+
+    <string name="mb_cleaned">MB Cleaned!</string>
+    <string name="no_msg_app">Nessuna applicazione disponibile messaggistica.</string>
+
+    <string name="selected_file_size">Dimensione del file selezionato: </string>
+    <string name="sending_limit">File invio limite: 160 MB!</string>
+
+    <string name="folder_not_read">folder can\'t be read!</string>
+
+    <string name="last_modified">Ultima Modifica:</string>
+    <string name="size">Taglia:</string>
+    <string name="contains">Contiene:</string>
+
+    <string name="preparing">Preparare il file!</string>
+    <string name="please_wait">Attendere Prego..</string>
+
+    <string name="select_person">Si prega di selezionare la persona che si desidera inviato il file a!</string>
+
+    <string name="now_sending_title">Invia file tramite WFS?</string>
+    <string name="now_sending_message_one">Sei sicuro di voler inviare il file </string>
+
+    <string name="selected_file_will_hidden">Il file selezionato verrà nascosto all\'interno di un file audio, e inviato al ricevitore.</string>
+    <string name="selected_file_will_divided">Il file selezionato sarà diviso e nascosto all\'interno </string>
+    <string name="selected_file_will_be_sure">Assicurarsi di inviare tutte le parti i file audio, altrimenti il ricevitore non sarà in grado di estrarre il file.</string>
+
+    <string name="attention">Attenzione!</string>
+    <string name="no_files_received">No file ricevuti!</string>
+    <string name="refreshing">Rinfrescante.. Attendere prego!</string>
+
+    <string name="select_action">Seleziona Azione!</string>
+    <string name="extract_file">Estrai File</string>
+    <string name="delete_file">Eliminare questo file?</string>
+    <string name="file_deleted">File cancellati!</string>
+
+    <string name="total_parts">Parte totale: </string>
+    <string name="extracting_file">Estrazione di file!</string>
+
+    <string name="file_finished_extracting">File estratto!\nSpazzata a destra alla scheda \"Estratto\" e premere \"Aggiorna\"(Rosso) per vedere il file!</string>
+    <string name="parts_not_available"> parts not available.</string>
+    <string name="parts_not_available_dl_again"> Si prega di scaricare e provare l\'estrazione di nuovo.</string>
+
+    <string name="open_file">Aprire questo file?</string>
+    <string name="loading_list_file">Lista Caricamento di file!</string>
+    <string name="no_new_ext_files">No new extracted file(s)!</string>
+
+    <string name="exit_title">Uscita App!</string>
+    <string name="exit_message">Sei sicuro di voler uscire WFS?</string>
+
+    <string name="title_first_run">First App Run!</string>
+    <string name="message_first_run">Sembra che si esegue questa applicazione per la prima volta. Si consiglia vivamente di controllare la sezione di aiuto prima di utilizzare questa applicazione.</string>
+
+    <string name="fab_rate_us">Vota il mio app!</string>
+    <string name="fab_share">Quota</string>
+    <string name="fab_wclean">★ W-Clean ★</string>
+    <string name="fab_how">Come usare?</string>
+    <string name="fab_cache">Clean Cache</string>
+
+    <string name="help_point_1">1. Sia mittente e il destinatario deve avere installato l\'applicazione WFS. E \'attraverso WFS quel mittente può inviare il file e ricevitore può estrarlo.</string>
+    <string name="help_point_2">2. Per inviare un file, cliccare sul pulsante blu SELECT FILE.
+        Si aprirà il browser preferito file di pre-installato, come ES File Explorer, Explorer Solid, etc.
+        Scegliere il file che si desidera inviare. WFS preparerà il file per l\'invio e WhatsApp si aprirà.
+        Selezionare la persona cui si desidera inviare il file.\n
+        Altrimenti, è possibile utilizzare file browser integrato del WFS (Situato sotto il pulsante blu SELECT FILE) per scegliere e inviare il file.\n
+        </string>
+    <string name="help_point_3">3. Ora dire la persona che ha inviato il file da scaricare e aprire WFS. Ricevitore può vedere i file inviati dal mittente in \"RICEVUTO\" Tab. Per Estratto il file ricevuto, basta toccare il esso. Ora scorrere fino alla scheda \"ESTRATTO\". (Nel caso in cui il file non è visibile, fare clic sul pulsante rosso REFRESH. Se anche questo non funziona, quindi assicurarsi che tutto il ricevitore ha scaricato tutte le parti Mp3 inviati dal mittente.)</string>
+    <string name="help_point_4">4. EXTRACT Tab shows all files received that were extracted. Click on the red button REFRESH to see the original file sent by the sender. Or you can tap the file to open it, or press and hold to delete it.</string>
+
+    <string name="help_how_1">1. Si potrebbe già essere sapendo che WhatsApp ufficiale consente agli utenti di inviare solo i file audio e video. Non è possibile inviare qualsiasi altro tipo di file.
+        È qui che entra in gioco WFS. Consente di inviare qualsiasi tipo di file attraverso WhatsApp ufficiale.\n\n
+        2. COME? WFS nasconde il file all\'interno di un piccolo file audio, e invia il file mp3 (contenente il file originale nascosto) al ricevitore attraverso la WhatsApp ufficiale.
+        WFS app al fianco del ricevente legge questo file audio unica e estrae il file originale nascosta da esso!!</string>
+
+    <string name="received_heading"> I file ricevuti (Non Estratta). Toccare per estrarre. Premere a lungo per eliminare. </string>
+    <string name="extracted_heading"> I file ricevuti (estratto). Lungo Premere per Elimina. Toccare per aprire. </string>
+
+
+
+</resources>

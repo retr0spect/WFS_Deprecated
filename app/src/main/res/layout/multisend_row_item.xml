@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D"
+        android:id="@+id/item_multi_deleteBtn"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="File Name"
+        android:id="@+id/item_multi_FileNameTV"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/item_multi_deleteBtn"
+        android:layout_toEndOf="@+id/item_multi_deleteBtn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="File Size"
+        android:id="@+id/item_multi_FileSizeTV"
+        android:layout_alignBottom="@+id/item_multi_deleteBtn"
+        android:layout_alignLeft="@+id/item_multi_FileNameTV"
+        android:layout_alignStart="@+id/item_multi_FileNameTV" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FileType"
+        android:id="@+id/item_multi_FileTypeTV"
+        android:layout_alignTop="@+id/item_multi_FileSizeTV"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
